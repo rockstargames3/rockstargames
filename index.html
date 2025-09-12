@@ -1,74 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Rockstar Games</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Games 🚀</h1>
-  <p></p>
-  <script src="script.js"></script>
-</body>
-</html>
+<div class="glass-container">
+    <h2>Login</h2>
+    <form>
+         <div class="input-group">
+             <input type="text" required>
+             <label>Username</label>
+         </div>
+         <div class="input-group">
+             <input type="password" required>
+             <label>Password</label>
+         </div>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Rockstar Games</title>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Rockstar_Games_Logo.svg/2226px-Rockstar_Games_Logo.svg.png" alt="Game 1" width "100">
-  <style>
-    body { font-family: Arial, sans-serif; }
-    nav { margin-bottom: 20px; }
-    button { margin-right: 10px; padding: 8px 12px; cursor: pointer; }
-    .category { display: none; }
-    .active { display: block; }
-  </style>
-</head>
-<body>
-
-  <!-- Category Buttons -->
-  <nav>
-    <button onclick="showCategory('games')">Games</button>
-    <button onclick="showCategory('music')">Music</button>
-    <button onclick="showCategory('tech')">Tech</button>
-  </nav>
-
-  <!-- Categories -->
-  <div id="games" class="category active">
-    <h2>🎮 Games</h2>
-    <ul>
-      <li>Game 1 – Racing</li>
-      <li>Game 2 – Shooter</li>
-      <li>Game 3 – Puzzle</li>
-    </ul>
-  </div>
-
-  <div id="music" class="category">
-    <h2>🎵 Music</h2>
-    <ul>
-      <li>Song 1 – Pop</li>
-      <li>Song 2 – Rock</li>
-      <li>Song 3 – Jazz</li>
-    </ul>
-  </div>
-
-  <div id="tech" class="category">
-    <h2>💻 Tech</h2>
-    <ul>
-      <li>Article 1 – AI</li>
-      <li>Article 2 – Gadgets</li>
-    </ul>
-  </div>
-
-  <!-- Script to Switch Categories -->
-  <script>
-    function showCategory(category) {
-      document.querySelectorAll('.category').forEach(c => c.classList.remove('active'));
-      document.getElementById(category).classList.add('active');
-    }
-  </script>
-
-</body>
-</html>
+    </form>
+</div>
