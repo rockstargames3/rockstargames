@@ -10,7 +10,7 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
-   background url(background.jpg);
+   background url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DFmtJYohHDnM&psig=AOvVaw2Ffz3S72vnso-UxPlr4d5w&ust=1757970077154000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIiruoKT2Y8DFQAAAAAdAAAAABAE);
    animation: gradientBG 15s ease infinite;
    overflow: hidden;
 }
