@@ -106,3 +106,48 @@ body {
    border-radius: 10px;
    color: #fff;
 }
+
+.remember-forgot {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 25px;
+   font-size: 14px;
+   color: rgba(255, 255, 255, 0.8);
+}
+
+.remember-forgot label {
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+
+.remember-forgot input {
+   margin-right: 8px;
+   accent-color: #fff;
+}
+
+.remember-forgot a {
+   color: #fff;
+   text-decoration: none;
+   transition: all 0.3s ease;
+}
+
+.remember-forgot a:hover {
+   text-decoration: underline;
+}
+
+.login-btn {
+   width: 100%;
+   padding: 15px;
+   background: rgba(255, 255, 255, 0.3);
+   border: none;
+   outline: none;
+   border-radius: 35px;
+   color: #fff;
+   font-size: 16px;
+   font-weight: 600;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   box-shadow 0 5px 15px rgba(0, 0, 0, 0.1);
+}
