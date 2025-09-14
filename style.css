@@ -151,3 +151,27 @@ body {
    transition: all 0.3s ease;
    box-shadow 0 5px 15px rgba(0, 0, 0, 0.1);
 }
+
+.login-btn:hover {
+   background: rgba(255, 255, 255, 0.4);
+   transform: translateY(-3px);
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.register-link {
+   text-align: center;
+   margin-top: 25px;
+   color: rgba(255, 255, 255, 0.8);
+   font-size: 14px;
+}
+
+.register-link a {
+   color: #fff;
+   font-weight: 600;
+   text-decoration: none;
+   transition: all 0.3s ease;
+}
+
+.register-link a:hover {
+   text-decoration: underline;
+}
