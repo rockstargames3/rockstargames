@@ -10,7 +10,11 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
+<<<<<<< HEAD
+   background: url(hq720.jpg);
+=======
    background: url(https://cdn.nimbusthemes.com/2017/09/09233341/Free-Nature-Backgrounds-Seaport-During-Daytime-by-Pexels.jpeg);
+>>>>>>> 9d605fe2bb05346896c518ff4ddee2b96dc63a44
    animation: gradientBG 15s ease infinite;
    overflow: hidden;
 }
