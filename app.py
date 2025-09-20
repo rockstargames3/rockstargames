@@ -15,3 +15,13 @@ def init_db():
     conn.close()
     
 @app.route('/register', methods=['GET', 'POST'])
+def register():
+    if request.method == 'POST'
+    username = request.form['username']
+    password = request.form['password']
+
+    conn = sqlite3.connect('useres.db')
+    c = conn.cursor()
+
+    try:
+        c.execute("INSERTINTO users (username, password)")   
