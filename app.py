@@ -24,4 +24,4 @@ def register():
     c = conn.cursor()
 
     try:
-        c.execute("INSERTINTO users (username, password)")   
+        c.execute("INSERTINTO users (username, password) VALUES (?, ?)", (username, password))   
