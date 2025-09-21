@@ -38,3 +38,18 @@ def register():
     if __name__ == "__main__":
         init_db()
         app.run(debug=True)   
+
+from flask import Flask, render_template, request, redirect, session
+import sqlite3
+
+app = Flask(__name__)
+app.secret_key = "supersecretkey" # needed for sessions
+
+# ... your register route here ...
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']
+        
