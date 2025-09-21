@@ -24,4 +24,17 @@ def register():
     c = conn.cursor()
 
     try:
-        c.execute("INSERTINTO users (username, password) VALUES (?, ?)", (username, password))   
+        c.execute("INSERTINTO users (username, password) VALUES (?, ?)", (username, password))
+        conn.commit()
+        message = " Account created successfully!"
+    except sqlite3.IntegrityError:
+        message = " Username already exists!"
+
+        conn.close()
+        return message
+
+    return render_template('register.html')
+
+    if __name__ == "__main__":
+        init_db()
+        app.run(debug=True)   
