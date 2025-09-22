@@ -62,3 +62,14 @@ def login():
         if user:
             session['user'] = username # save user session
             return redirect('/dashboard') 
+        else:
+            return " Invalid username or password!"
+
+        return render_template('index.html') # Login page
+
+        @app.route('/dashboard')
+        def dashboard():
+            if 'user' in session:
+                return f"Welcome, {session['user']}! You are logged in."
+            else:
+                return redirect('/login')
