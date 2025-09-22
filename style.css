@@ -140,7 +140,7 @@ body {
 .login-btn {
    width: 100%;
    padding: 15px;
-   background: rgba(255, 255, 255, 0.3);
+   background: rgb(255, 255, 255);
    border: none;
    outline: none;
    border-radius: 35px;
