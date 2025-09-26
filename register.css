@@ -87,3 +87,10 @@ body {
     background: #ffb347;
     transform: translateY(-3px);
 }
+
+/* Link */
+.login-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
