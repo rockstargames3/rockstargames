@@ -67,3 +67,18 @@ body {
     border-radius: 10px;
     color: #ffcc70;
 }
+
+/* Button */
+.register-btn {
+    width: 100%;
+    padding: 15px;
+    background: #ffcc70;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333
+    cursor: pointer;
+    transition: 0.3s ease;
+}
