@@ -34,3 +34,15 @@ body {
     position: realtive;
     margin-bottom: 25px;
 }
+
+.input-group input {
+    width: 100%;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    font-size: 16px;
+    color: #fff;
+    box-shadow: 0 5x 15px rgba(0, 0, 0, 0.5);
+}
